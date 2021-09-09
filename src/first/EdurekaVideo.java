@@ -16,8 +16,8 @@ public class EdurekaVideo {
 		driver.get("http://seleniumautomationpractice.blogspot.com/2017/10/waitcommands.html");
 		WebDriverWait wait = new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("LinkText-5"))).click();
-		Thread.sleep(5000);
 		
+		driver.close();
 		driver.quit();
 	}
 
