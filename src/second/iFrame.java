@@ -21,7 +21,7 @@ public class iFrame {
 		
 		driver.switchTo().parentFrame();
 		
-		// Select Second frame and insert data in textfield.
+		// Select Second frame and insert data in text field.
 		driver.switchTo().frame("ID_Frame2");
 		driver.findElement(By.name("firstname")).sendKeys("Hello Tester");
 		
